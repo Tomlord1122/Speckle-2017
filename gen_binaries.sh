@@ -35,7 +35,7 @@ input_type=ref
 
 # Add these variables at the beginning of the script, after the initial variable declarations
 QEMU_PATH="/opt/qemu-custom/bin/qemu-riscv64"
-RISCV_SYSROOT="/opt/riscv-custom/sysroot"
+RISCV_SYSROOT="/opt/riscv/sysroot"
 QEMU_CPU="rv64,v=true,zba=true,zbb=true,zbs=true,vlen=128,vext_spec=v1.0"
 PLUGIN_PATH="/home/tomlord/workspace/Speckle-2017"  # Adjust this to the actual path of your plugin files
 LOG_DIR="$build_dir/logs"  # Directory for storing execution logs
