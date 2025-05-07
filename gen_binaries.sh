@@ -28,7 +28,8 @@ genCommandsFlag=false
 
 # intrate, fprate, intspeed, fpspeed
 # Supersets spec{speed,rate}, and all, are not supported
-suite_type=intrate
+# Wendell
+suite_type=fprate
 
 # ref, train, test
 input_type=ref
